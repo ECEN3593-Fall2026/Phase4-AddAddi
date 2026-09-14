@@ -67,20 +67,6 @@ Note: in decode, you can still assign to instr_string and have it print out.  In
     end
 ```
 
-Bringing it all together, below are two diagrams that can help.
-
-The decode stage:
-
-
-![Decode Stage](img/phase4-diagrams-decode-stage.svg)
-  
-
-The execute stage:
-
-![Execute Stage](img/phase4-diagrams-execute-stage.svg)
-
-
-
 ### Testing
 
 Provided is phase4-sample.S that we will be basing the correctness on.  make_init_mem.sh can be used (as with past phases) to create init.mem.  The init.mem provided matches phase4-sample.S.
