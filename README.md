@@ -104,21 +104,21 @@ We will hold interview grading for this phase.  This will not be a rigorous gril
 
 
 Rubric:
-20 points total
+10 points total
 
 If your System Verilog code does not compile and run without errors, you will be assigned a 0.  You will be given 1 opportunity, and 24 hours, to correct and notify the TA that let you know.
 
 with a solution that does compile/run, below is the rubric:
 
-1 point for file AI_use_statement.md
+0.5 point for file AI_use_statement.md
 
-10 points for code that looks right (they exist and look reasonable to the TA).  2.5 pt each for:
+8 points for code that looks right (they exist and look reasonable to the TA).  2 pt each for:
 * decode -- set control signals (eyeball)
 * execute -- mux
 * execute -- alu
 * writeback -- regfile signals
 
-4 points for correct execution.  We will use phase4-sample.S to test for correctness.  We define correctness as the writes to the register files (and not writing, in the case of anything that attempts to assign to x0).  We will give 1 point each for the test of each of the following conditions (which we will test by looking at x0, x2, x3, and x4).  So, you can check your program for correctness the same way we'll check.  The test program writes to x1-x6, so you should make sure all of those are correct.  You can grep "Register" the output log file to see what registers get written to, with what value, and when.
+1.5 points for correct execution.  We will use phase4-sample.S to test for correctness.  We define correctness as the writes to the register files (and not writing, in the case of anything that attempts to assign to x0).  We will give 1 point each for the test of each of the following conditions (which we will test by looking at x0, x2, x3, and x4).  So, you can check your program for correctness the same way we'll check.  The test program writes to x1-x6, so you should make sure all of those are correct.  You can grep "Register" the output log file to see what registers get written to, with what value, and when.
 * addi with pos number 
 * addi with neg num
 * setting x0 (should not set)
