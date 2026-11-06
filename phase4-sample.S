@@ -15,6 +15,11 @@ nop
 nop
 nop
 nop
+add x7, x0, x0
+nop
+nop
+nop
+nop
 add x4, x1, x2
 nop
 nop
